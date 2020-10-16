@@ -1,6 +1,13 @@
 import React from 'react';
 
+import D3JS from '../D3JS/D3JS';
+import ChartJS from '../ChartJS/ChartJS';
+
+
 function HomePage() {
+    
+    
+
   return (
     <main className="center" id="main">
 
@@ -54,8 +61,15 @@ function HomePage() {
             </p>
         </article>
 
+        <article>
+          <h1>Chart</h1>
+          <p><ChartJS/></p>
+        </article>
 
-        
+        <article>
+          <h1>D3Chart</h1>
+          <D3JS/> 
+        </article>   
 
     </div>
 
